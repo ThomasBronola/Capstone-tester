@@ -18,7 +18,7 @@
             <ul class="navbar-nav ml-auto text-uppercase">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">HOME</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" data-toggle="modal" href="#las-modal">LOGin</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="modal" href="#las-modal">NEMO</a></li>
 
 
             </ul>
