@@ -32,7 +32,7 @@
                 <ul class="navbar-nav ml-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">HOME</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accomplishments">PROJECTS</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accomplishments">PROJECTS</a></li> -->
                     <li class="nav-item"><a class="nav-link" data-toggle="modal" href="#las-modal">LOGIN</a></li>
                 </ul>
             </div>
@@ -129,7 +129,8 @@
         </div>
     </section>
 
-    <!-- SLIDESHOW OF ACCOMPLISHED PROJECTS -->
+
+   <!-- SLIDESHOW OF ACCOMPLISHED PROJECTS
     <section class="py-5">
         <div class="container">
             <div class="row">
@@ -150,7 +151,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- FOOTER  -->
