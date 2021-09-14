@@ -17,7 +17,7 @@
 
 <body id="page-top">
 
-    <?php require 'header.php' ?>
+    <?php require 'layout/header.php' ?>
 
     <!-- LOGO WITH WELCOME LABELS -->
     <header class="masthead" style="background: url(&quot;assets/img/wallpaper1.jpg&quot;) no-repeat;">
@@ -110,78 +110,7 @@
     </section>
 
 
-   <!-- SLIDESHOW OF ACCOMPLISHED PROJECTS
-    <section class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="simple-slider">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <section id="accomplishments"></section>
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/a9aecfcd0c474899a57da07176a929c4.jpg&quot;) center center / cover no-repeat;"></div>
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/sk2.jpg&quot;) center center / cover no-repeat;"></div>
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/sk3.jpg&quot;) center center / cover no-repeat;"></div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <?php require_once 'footer.php' ?>
-
-
-
-    <!-- LOGIN MODAL  -->
-    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="login-modal" >  <!-- style="height: 496px;width: 751px;" margin-left: 30%;margin-top: 5%; -->
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="container" style="margin-top: -40px;">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="modal-body">
-                                <button class="close">
-                                    <span aria-hidden="true" data-dismiss="modal">×</span>
-                                </button>
-
-                                <!-- LOGIN WELCOME LABEL AND SIGN UP LINK  -->
-                                <h2 class="text-uppercase">LOGIN</h2>
-                                <p class="text-muted item-intro" style="font-size: 13px;margin-top: -22px;">No account?
-                                    <a id="link-sign-up" data-dismiss="modal" data-toggle="modal" href="#signup-modal" style="color: var(--blue);">&nbsp;Sign up&nbsp;</a>
-                                    <label>here</label>
-                                </p>
-
-                                <!-- EMAIL AND PASSWORD INPUT -->
-                                <div class="d-inline-block" style="padding: 0px;height: 100px;">
-                                    <label class="text-left" >Email:&nbsp;</label>
-                                    <input type="email" id="email" >
-
-                                    <label>Password:&nbsp;</label>
-                                    <input type="password" id="password" >
-                                    <!-- input width tentative: style="width: 247.6px;" -->
-
-
-                                    <!-- LOGIN BUTTON CODE  -->
-                                    <button class="btn btn-primary" data-dismiss="modal" type="submit">
-                                        <span> LOGIN</span>
-                                    </button>
-                                    <a class="text-center d-block" id="forrgot-password" href="#" data-dismiss="modal" style="color: var(--red);border-color: var(--blue);">&nbsp;Forgot Your Password?</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    
+    <?php require_once 'layout/footer.php' ?>
 
     <!-- LOGIN AND SIGN UP MODEL -->
     <div class="modal fade" id="las-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
