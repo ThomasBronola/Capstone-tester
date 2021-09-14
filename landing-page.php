@@ -126,7 +126,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/pakalu.jpg" />
-                    <h4>Perf John M. Gomera</h4>
+                    <h4>Perf Gomera</h4>
                     <p class="text-muted">May Jowa #2</p>
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
