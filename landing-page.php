@@ -19,16 +19,48 @@
 
     <?php require 'layout/header.php' ?>
 
+    
     <!-- LOGO WITH WELCOME LABELS -->
-    <header class="masthead" style="background: url(&quot;assets/img/wallpaper1.jpg&quot;) no-repeat;">
-        <div class="container">            
-            <div class="intro-text" id="home">  
-                <div class="intro-T">CONSTRUC-IT</div>                          
-                <div class="intro-M">QUALITY PLANNING * EFFICIENT MANAGING * ACCURATE TRACKING</div>                             
+    <header class="masthead" style="background: url(assets/img/xb.jpg) no-repeat;">
+    <div class="padds">
+        <div class="container">
+        <div class="simple-slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background: url(&quot;assets/img/a9aecfcd0c474899a57da07176a929c4.jpg&quot;) center center / cover no-repeat;">
+                        <p class="intro-T">Construc-IT</p>
+                        <p class="intro-M">Quality Planning</p>
+                    </div>
+                    <div class="swiper-slide" style="background: url(&quot;assets/img/sk2.jpg&quot;) center center / cover no-repeat;">
+                        <p class="intro-T">Construc-IT</p>
+                        <p class="intro-M">Effective Managing</p>
+                    </div>
+                    <div class="swiper-slide" style="background: url(&quot;assets/img/sk3.jpg&quot;) center center / cover no-repeat;">
+                        <p class="intro-T">Construc-IT</p>
+                        <p class="intro-M">Accurate Tracking</p>
+                    </div>
+                    <div class="swiper-slide" style="background: url(&quot;assets/img/wallpaper1.jpg&quot;) center center / cover no-repeat;">
+                        <p class="intro-T">Construc-IT</p>
+                        <p class="intro-M">Less Workload</p>
+                        <div class="botpad"></div>
+                    </div>
+                </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="botpad"></div>
             </div>
         </div>
+        </div>
+    </div>
     </header>
 
+
+         
+                <!-- <div class="intro-text" id="home">  
+                    <div class="intro-T">CONSTRUC-IT</div>                          
+                    <div class="intro-M">QUALITY PLANNING * EFFICIENT MANAGING * ACCURATE TRACKING</div>                             
+                </div> -->
 
     <!-- ABOUT US -->
     <section id="about">
