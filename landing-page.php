@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="icon" href="assets/img/logo3-white.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
 </head>
 
 <body id="page-top">
@@ -20,7 +20,9 @@
     <?php require 'layout/header.php' ?>
 
     
-    <!-- LOGO WITH WELCOME LABELS
+    <!-- LOGO WITH WELCOME LABELS -->
+    <!-- SLIDESHOW -->
+    <!-- <header class="masthead" style="background: url(assets/img/xb.jpg) no-repeat;">
     <header class="masthead" id="home" style="background: url(assets/img/xb.jpg) no-repeat;">
     <div class="padds">
         <div class="container">
@@ -55,18 +57,18 @@
     </div>
     </header> -->
 
-    
-        <section class="py-5">
-        <div class="container" style="margin:50px -15px -60px -15px;">
+
+
+        <section class="py-5" style=" background: url(&quot;assets/img/xb2.png&quot;) center center / cover no-repeat;">
+        <div class="container" id="slideshow-container" style=" margin:3% -15px -49px -15px;">
             <div class="row">
                 <div class="col">
-                    <div class="simple-slider" >
-                        <div class="swiper-container"  style="width: 1550px;">
-                            <div class="swiper-wrapper">
-                                <section id="accomplishments"></section>
-                                <div class="swiper-slide" style="height:620px; background: url(&quot;assets/img/a9aecfcd0c474899a57da07176a929c4.jpg&quot;) center center / cover no-repeat;"></div>
-                                <div class="swiper-slide" style="height:620px; background: url(&quot;assets/img/sk2.jpg&quot;) center center / cover no-repeat;"></div>
-                                <div class="swiper-slide" style="height:620px; background: url(&quot;assets/img/sk3.jpg&quot;) center center / cover no-repeat;"></div>
+                    <div class="simple-slider" style="width: 173%;">
+                        <div class="swiper-container" >
+                            <div class="swiper-wrapper" >                      
+                                <div class="swiper-slide" style="height: 785px; background: url(&quot;assets/img/a9aecfcd0c474899a57da07176a929c4.jpg&quot;) center center / cover no-repeat;"></div>
+                                <div class="swiper-slide" style="height: 785px; background: url(&quot;assets/img/sk2.jpg&quot;) center center / cover no-repeat;"></div>
+                                <div class="swiper-slide" style="height: 785px; background: url(&quot;assets/img/sk3.jpg&quot;) center center / cover no-repeat;"></div>                      
                             </div>
                             <div class="swiper-pagination"></div>
                             <div class="swiper-button-prev"></div>
@@ -85,8 +87,65 @@
                     <div class="intro-M">QUALITY PLANNING * EFFICIENT MANAGING * ACCURATE TRACKING</div>                             
                 </div> -->
 
+    <!-- TEAM -->
+    <section class="bg-dark" id="team">
+    <div class="container" style="color:white;">
+        <div class="row" >
+            <div class="col-sm-3">
+                <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/pakalu.jpg"/>
+                    <h4>Alexis Soriano</h4>
+                    <p>May Jowa #1</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/pakalu.jpg" />
+                    <h4>Thomas Broñola</h4>
+                    <p>Single #1</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/pakalu.jpg" />
+                    <h4>Eris Lacsamana</h4>
+                    <p class="text-secondary">Single #2</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/pakalu.jpg" />
+                    <h4>Perf John M. Gomera</h4>
+                    <p class="text-muted">May Jowa #2</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
     <!-- ABOUT US -->
-    <section id="about">
+    <!-- <section id="about">
         <div class="container" style="margin-top: -50px;">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -98,7 +157,7 @@
                 <div class="col-lg-12">
                     <ul class="list-group timeline">
 
-                        <!-- FIRST CIRLCE -->
+                        <!-- FIRST CIRLCE   
                         <li class="list-group-item">                            
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/pakalu.jpg"></div>
                             <div class="timeline-panel">
@@ -112,12 +171,12 @@
                             </div>
                         </li>
 
-                        <!-- SECOND CIRCLE -->
+                        <!-- SECOND CIRCLE 
                         <li class="list-group-item timeline-inverted">
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/pakalu.jpg"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>bronolathomas@gmail.com</h4>
+                                    <h4 class="subheading">bronolathomas@gmail.com</h4>
                                     <h4 class="subheading">Thomas Adrian U. Bronola</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -126,7 +185,7 @@
                             </div>
                         </li>
 
-                        <!-- THIRD CIRCLE -->
+                        <!-- THIRD CIRCLE 
                         <li class="list-group-item">
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/pakalu.jpg"></div>
                             <div class="timeline-panel">
@@ -152,7 +211,7 @@
                             </div>
                         </li>
 
-                        <!-- PRESENT CIRCLE  -->
+                        <!-- PRESENT CIRCLE 
                         <li class="list-group-item timeline-inverted">
                             <div class="timeline-image">
                                 <h4 style="color:black;"><br>PRESENT</h4>
@@ -162,7 +221,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <?php require_once 'layout/footer.php' ?>
