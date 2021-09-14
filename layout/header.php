@@ -14,13 +14,15 @@
         </button>
 
             <!-- NAVIGATION LINKS -->
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="collapse navbar-collapse js-main-nav" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto text-uppercase">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">HOME</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">HOME</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">TEAM</a></li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="modal" href="#las-modal">LOGIN</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">ABOUT</a></li>                                                           
+                    <li class="nav-item"><a class="nav-link" href="#las-modal" data-signin="login" data-toggle="modal" >LOGIN</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
+
