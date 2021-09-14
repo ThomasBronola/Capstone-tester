@@ -21,7 +21,7 @@
 
     
     <!-- LOGO WITH WELCOME LABELS -->
-    <header class="masthead" style="background: url(assets/img/xb.jpg) no-repeat;">
+    <header class="masthead" id="home" style="background: url(assets/img/xb.jpg) no-repeat;">
     <div class="padds">
         <div class="container">
         <div class="simple-slider">
