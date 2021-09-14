@@ -21,13 +21,14 @@
 
     
     <!-- LOGO WITH WELCOME LABELS -->
-    <header class="masthead" style="background: url(assets/img/xb.jpg) no-repeat;">
+    <!-- SLIDESHOW -->
+    <!-- <header class="masthead" style="background: url(assets/img/xb.jpg) no-repeat;">
     <div class="padds">
         <div class="container">
-        <div class="simple-slider">
+        <div class="simple-slider" >
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background: url(&quot;assets/img/a9aecfcd0c474899a57da07176a929c4.jpg&quot;) center center / cover no-repeat;">
+                <div class="swiper-wrapper" style="height:712px;">
+                    <div class="swiper-slide" style=" height:720px; background: url(&quot;assets/img/a9aecfcd0c474899a57da07176a929c4.jpg&quot;) center center / contain no-repeat;">
                         <p class="intro-T">Construc-IT</p>
                         <p class="intro-M">Quality Planning</p>
                     </div>
@@ -53,7 +54,29 @@
         </div>
         </div>
     </div>
-    </header>
+    </header> -->
+        <!-- SLIDESHOW OF ACCOMPLISHED PROJECTS -->
+        <section class="py-5">
+        <div class="container" style="margin:50px -15px -60px -15px;">
+            <div class="row">
+                <div class="col">
+                    <div class="simple-slider" >
+                        <div class="swiper-container"  style="width: 1550px;">
+                            <div class="swiper-wrapper">
+                                <section id="accomplishments"></section>
+                                <div class="swiper-slide" style="height:620px; background: url(&quot;assets/img/a9aecfcd0c474899a57da07176a929c4.jpg&quot;) center center / cover no-repeat;"></div>
+                                <div class="swiper-slide" style="height:620px; background: url(&quot;assets/img/sk2.jpg&quot;) center center / cover no-repeat;"></div>
+                                <div class="swiper-slide" style="height:620px; background: url(&quot;assets/img/sk3.jpg&quot;) center center / cover no-repeat;"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
          

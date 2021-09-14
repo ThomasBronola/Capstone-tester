@@ -1,17 +1,20 @@
 .simple-slider .swiper-slide {
-  height: 500px;
+  /* height: 500px; */
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
 }
 
+
 .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
-  width: 50px;
+  /* width: 50px; */
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   margin-top: -100px;
 }
+
+
 
 @media (max-width:767px) {
   .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
