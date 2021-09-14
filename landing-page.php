@@ -100,7 +100,7 @@
                         <!-- PRESENT CIRCLE  -->
                         <li class="list-group-item timeline-inverted">
                             <div class="timeline-image">
-                                <h4><br>PRESENT</h4>
+                                <h4 style="color:black;"><br>PRESENT</h4>
                             </div>
                         </li>
                     </ul>
