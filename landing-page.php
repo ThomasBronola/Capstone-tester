@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>Construc - IT</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
@@ -17,27 +17,7 @@
 
 <body id="page-top">
 
-    <!-- NAVIGATION BAR -->
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-        <div class="container">
-
-            <!-- LOGO -->
-            <a class="navbar-brand" href="#page-top" style="background: url(&quot;assets/img/logo3-white.png&quot;) center / contain no-repeat, transparent;width: 162px;height: 55px;margin-top: 0px;color: rgb(254, 209, 54);"></a>>       </a>
-            <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-
-            <!-- NAVIGATION LINKS -->
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto text-uppercase">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accomplishments">PROJECTS</a></li> -->
-                    <li class="nav-item"><a class="nav-link" data-toggle="modal" href="#las-modal">LOGIN</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php require 'header.php' ?>
 
     <!-- LOGO WITH WELCOME LABELS -->
     <header class="masthead" style="background: url(&quot;assets/img/wallpaper1.jpg&quot;) no-repeat;">
@@ -153,28 +133,8 @@
         </div>
     </section> -->
 
+    <?php require_once 'footer.php' ?>
 
-    <!-- FOOTER  -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4"><span class="copyright">Copyright&nbsp;© Construc - IT 2021</span></div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="list-inline-item" ><a style="color: black;" href="#">Privacy Policy</a></li>
-                        <li class="list-inline-item" ><a style="color: black;" href="#">Terms of Use</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 
     <!-- LOGIN MODAL  -->
