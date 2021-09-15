@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
     <link rel="stylesheet" href="../../assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 
@@ -25,14 +24,18 @@
     <!-- MODAL WHEN INSERTING PROJECT ID -->
     <div class="modal fade" role="dialog" tabindex="-1" id="client-id-modal" style="border-radius: 24px;margin-top:10%;">
             <div class="modal-dialog" role="document">
-                <!-- <div class="modal-content"> -->
-                <div style="padding:20px;background:#ed7117;" class="modal-mg">
+                <div class="modal-content">
+                <!-- <div style="padding:20px;background:#ed7117;" class="modal-mg"> -->
 
                     <div class="modal-header bg-dark" style="color: rgb(255,255,255);">
                         <h4 class="modal-title" style="background: url(&quot;../../assets/img/logo3-white.png&quot;) center / contain no-repeat, transparent;width: 123px;height: 65px;"></h4>
                         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close" style="background:white;width:30px;margin-top:17px;"> x </button>                        
                     </div>
-                <div class="modal-body text-center bg-dark" id="client-modal-body"><label class="form-label" style="color: white;">Enter Project ID:<input type="text" style="background: rgb(128,145,160);border-radius: 125px;width:200px;"></label></div>
+
+                <div class="modal-body text-center bg-dark">
+                    <label class="form-label" style="color: white;">Enter Project ID:</label>
+                    <input id="projectID" type="text" name=viewProject style="background: rgb(128,145,160);border-radius: 125px;width:200px;">
+                </div>
                 <div class="modal-footer justify-content-center bg-dark"><button class="btn btn-primary" type="button">Search</button></div>
             </div>
         </div>
