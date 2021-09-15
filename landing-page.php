@@ -35,9 +35,6 @@
                         </span>
                     </h4>
                 </div>        
-<!-- 
-                <div class="intro-T">CONSTRUC-IT</div>                          
-                <div class="intro-M">QUALITY PLANNING * EFFICIENT MANAGING * ACCURATE TRACKING</div>                              -->
             </div>
         </div>
     </header>
@@ -185,8 +182,8 @@
         </div>
     </section>
 
-    <!--The Construc-IT Pages -->
-    <section class="py-5" id="c-it" style="background-color: #343a40;">
+<!--The Construc-IT Pages -->
+<section class="py-5" id="c-it" style="background-color: #343a40;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
