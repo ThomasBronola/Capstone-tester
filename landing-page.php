@@ -269,15 +269,15 @@
                       </div>
 
                       <!-- REMEMBER ME AND FORGET PASSWORD BUTTONS  -->
-                      <div class="form-group d-md-flex">
-                          <div class="form-check w-50">
+                      <div class="form-group "> 
+                          <!-- <div class="form-check w-50">
                               <label class="custom-control fill-checkbox">
                                               <input type="checkbox" class="fill-control-input">
                                               <span class="fill-control-indicator"></span>
                                               <span class="fill-control-description">Remember Me</span>
                                           </label>
-                                      </div>
-                                      <div class="w-50 text-md-right">
+                                      </div> -->
+                                      <div class="w-100 md-0 text-md-center"> 
                                           <a href="#" style="color: #fff">Forgot Password</a>
                                       </div>
                       </div>
