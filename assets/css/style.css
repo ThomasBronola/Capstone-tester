@@ -8408,3 +8408,21 @@ textarea.form-control {
   padding-bottom: 150px;
   margin-bottom: 40px;
 }
+
+
+
+#client-od-modal {
+  background-color: black;
+}
+
+@media (min-width: 300px) {
+  #client-id-modal {
+    margin-top: 50px;
+  }
+}
+
+button{
+  cursor: pointer;
+}
+
+
