@@ -1,5 +1,5 @@
     <!-- FOOTER  -->
-    <footer>
+    <footer style="margin-top:25px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4"><span class="copyright">Copyright&nbsp;© Construc - IT 2021</span></div>
