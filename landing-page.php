@@ -196,7 +196,7 @@
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
                                 <section id="accomplishments"></section>
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/a9aecfcd0c474899a57da07176a929c4.jpg&quot;) center center / cover no-repeat;"></div>
+                                <div class="swiper-slide" style="background: url(&quot;assets/img/xb.jpg&quot;) center center / cover no-repeat;"></div>
                                 <div class="swiper-slide" style="background: url(&quot;assets/img/sk2.jpg&quot;) center center / cover no-repeat;"></div>
                                 <div class="swiper-slide" style="background: url(&quot;assets/img/sk3.jpg&quot;) center center / cover no-repeat;"></div>
                             </div>
