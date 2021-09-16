@@ -20,7 +20,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">TEAM</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">ABOUT</a></li>                                                           
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#accomplishments">CONSTRUC - IT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#las-modal" data-signin="login" data-toggle="modal" >LOGIN</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#las-modal" data-toggle="modal" >LOGIN</a></li>
                 </ul>
             </div>
         </div>
